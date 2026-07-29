@@ -1,10 +1,10 @@
-package ru.cb97.feelu;
+package ru.cb97.Ifeel;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FeelUApplicationTests {
+class IfeelApplicationTests {
 
     @Test
     void contextLoads() {

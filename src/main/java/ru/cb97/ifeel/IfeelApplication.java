@@ -1,13 +1,13 @@
-package ru.cb97.feelu;
+package ru.cb97.Ifeel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FeelUApplication {
+public class IfeelApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FeelUApplication.class, args);
+        SpringApplication.run(IfeelApplication.class, args);
     }
 
 }

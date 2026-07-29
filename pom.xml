@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.cb97</groupId>
-    <artifactId>FeelU</artifactId>
+    <artifactId>Ifeel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>FeelU</name>
-    <description>FeelU</description>
+    <name>Ifeel</name>
+    <description>Ifeel</description>
     <url/>
     <licenses>
         <license/>
