@@ -1,0 +1,5 @@
+package ru.cb97.Ifeel.tracking;
+
+public enum Mood {
+    CALM, RELAXED, HAPPY, JOYFUL, PLAYFUL, IRRITATED, ANGRY, ANXIOUS, TENSE, SAD, DOWN, BORED, APATHETIC
+}
