@@ -1,12 +1,11 @@
 package ru.cb97.Ifeel.controllers;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ru.cb97.Ifeel.DTO.PeriodDTO;
 import ru.cb97.Ifeel.services.PeriodEntryService;
 import ru.cb97.Ifeel.tracking.PeriodEntry;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/periods")
@@ -18,5 +17,9 @@ public class PeriodEntryController {
     @PostMapping
     public PeriodEntry addPeriodEntry(@RequestBody PeriodDTO request) {
         return service.createPeriodEntry(request);
+    }
+    @GetMapping()
+    public List<PeriodEntry> getAllPeriods() {
+        return service.getAllPeriods();
     }
 }

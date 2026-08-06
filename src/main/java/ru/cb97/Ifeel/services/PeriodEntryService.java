@@ -5,6 +5,8 @@ import ru.cb97.Ifeel.DTO.PeriodDTO;
 import ru.cb97.Ifeel.repositories.PeriodEntryRepository;
 import ru.cb97.Ifeel.tracking.PeriodEntry;
 
+import java.util.List;
+
 @Service
 public class PeriodEntryService {
     private final PeriodEntryRepository repository;
@@ -17,5 +19,8 @@ public class PeriodEntryService {
         periodEntry.setStartDate(info.startDate());
         periodEntry.setEndDate(info.endDate());
         return repository.save(periodEntry);
+    }
+    public List<PeriodEntry> getAllPeriods() {
+        return repository.findAll();
     }
 }
