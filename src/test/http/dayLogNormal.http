@@ -1,0 +1,14 @@
+POST http://localhost:8080/day_logs
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "day": "2026-08-14",
+  "energy": 4,
+  "mood": "ANGRY",
+  "note": "testing",
+  "symptomRatings": [
+  { "symptomId": 1, "severity": 3 },
+  { "symptomId": 2, "severity": 5 }
+  ]
+}

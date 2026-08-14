@@ -23,6 +23,6 @@ public class DayLog {
     @Enumerated(EnumType.STRING)
     private Mood mood;
     private String note;
-    @OneToMany(mappedBy = "dayLog")
+    @OneToMany(mappedBy = "dayLog", cascade = CascadeType.ALL)
     private Set<SymptomRating> symptomRatings = new HashSet<>();
 }
