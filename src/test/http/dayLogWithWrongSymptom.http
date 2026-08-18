@@ -3,12 +3,13 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "day": "2026-08-14",
+  "day": "2026-08-16",
   "energy": 4,
   "mood": "ANGRY",
   "note": "testing",
   "symptomRatings": [
-  { "symptomId": 23, "severity": 3 },
-  { "symptomId": 26, "severity": 5 }
+    { "symptomId": 25, "severity": 3 },
+    { "symptomId": 27, "severity": 5 },
+    { "symptomId": 34, "severity": 2 }
   ]
 }

@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "day": "2026-08-14",
+  "day": "2026-08-18",
   "energy": 4,
   "mood": "ANGRY",
   "note": "testing",
